@@ -1,15 +1,9 @@
-import pizza from './Pizza.jpg'
-import burger from './Burger.jpg'
-import icecream from './Icecream.jpg'
-import salad from './Salad.jpg'
-import sushi from './Sushi.jpg'
-
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png' 
+import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
@@ -66,48 +60,63 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
-const menu_list = [
-    {
-      name: "Pizza",
-      menu_image: pizza
-    },
-    {
-      name: "Burger",
-      menu_image: burger
-    },
-    {
-      name: "Sushi",
-      menu_image: sushi
-    },
-    {
-      name: "Pasta",
-      menu_image: pizza
-    },
-    {
-      name: "Salad",
-      menu_image: salad
-    },
-    {
-      name: "Ice Cream",
-      menu_image: icecream
-    },
-    {
-      name: "Steak",
-      menu_image: burger
-    },
-    {
-      name: "Tacos",
-      menu_image: salad
-    },
-    {
-      name: "Sandwich",
-      menu_image: icecream
-    }
-  ];
+export const assets = {
+    logo,
+    basket_icon,
+    header_img,
+    search_icon,
+    rating_starts,
+    add_icon_green,
+    add_icon_white,
+    remove_icon_red,
+    app_store,
+    play_store,
+    linkedin_icon,
+    facebook_icon,
+    twitter_icon,
+    cross_icon,
+    selector_icon,
+    profile_icon,
+    logout_icon,
+    bag_icon,
+    parcel_icon
+}
 
-  export default menu_list;
+export const menu_list = [
+    {
+        menu_name: "Salad",
+        menu_image: menu_1
+    },
+    {
+        menu_name: "Rolls",
+        menu_image: menu_2
+    },
+    {
+        menu_name: "Deserts",
+        menu_image: menu_3
+    },
+    {
+        menu_name: "Sandwich",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "Cake",
+        menu_image: menu_5
+    },
+    {
+        menu_name: "Pure Veg",
+        menu_image: menu_6
+    },
+    {
+        menu_name: "Pasta",
+        menu_image: menu_7
+    },
+    {
+        menu_name: "Noodles",
+        menu_image: menu_8
+    }]
 
-  export const food_list = [
+export const food_list = [
     {
         _id: "1",
         name: "Greek salad",
@@ -339,5 +348,3 @@ const menu_list = [
         category: "Noodles"
     }
 ]
-
-  

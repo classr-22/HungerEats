@@ -1,8 +1,4 @@
-.explore-menu-image{
-    width: 130px; 
-    height: 130px; 
-    border-radius: 50%;
-}
+
 .explore-menu{
     display: flex;
     flex-direction: column;
@@ -31,6 +27,9 @@
 .explore-menu-list-item img{
     cursor: pointer;
     transition: 0.2s;
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%;
 }
 .explore-menu-list-item p{
     margin-top: 10px;
@@ -44,4 +43,11 @@
     background-color: #e2e2e2;
     border: none;
 }
+.explore-menu-list-item .active{
+    border: 4px solid tomato;
+    padding: 2px;
+}
+
+
+
 
