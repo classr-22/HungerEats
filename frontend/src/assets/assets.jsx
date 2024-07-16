@@ -67,43 +67,38 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
 const menu_list = [
-    {
-      name: "Pizza",
-      menu_image: pizza
-    },
-    {
-      name: "Burger",
-      menu_image: burger
-    },
-    {
-      name: "Sushi",
-      menu_image: sushi
-    },
-    {
-      name: "Pasta",
-      menu_image: pizza
-    },
-    {
+  {
       name: "Salad",
-      menu_image: salad
-    },
-    {
-      name: "Ice Cream",
-      menu_image: icecream
-    },
-    {
-      name: "Steak",
-      menu_image: burger
-    },
-    {
-      name: "Tacos",
-      menu_image: salad
-    },
-    {
+      menu_image: menu_1
+  },
+  {
+      name: "Rolls",
+      menu_image: menu_2
+  },
+  {
+      name: "Deserts",
+      menu_image: menu_3
+  },
+  {
       name: "Sandwich",
-      menu_image: icecream
-    }
-  ];
+      menu_image: menu_4
+  },
+  {
+      name: "Cake",
+      menu_image: menu_5
+  },
+  {
+      name: "Pure Veg",
+      menu_image: menu_6
+  },
+  {
+      name: "Pasta",
+      menu_image: menu_7
+  },
+  {
+      name: "Noodles",
+      menu_image: menu_8
+  }]
 
   export default menu_list;
 

@@ -27,8 +27,8 @@
 .explore-menu-list-item img{
     cursor: pointer;
     transition: 0.2s;
-    width: 130px; 
-    height: 130px; 
+    width: 120px; 
+    height: 120px; 
     border-radius: 50%;
 }
 .explore-menu-list-item p{
