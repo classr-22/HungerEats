@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar({setShowLogin}) {
 
   const [menu,setmenu] = useState("home");
 
@@ -23,7 +23,7 @@ function Navbar() {
             <ShoppingBasketIcon></ShoppingBasketIcon>
             <div className='dot'></div>
           </div>
-          <button>Sign In</button>
+          <button onClick={()=>setShowLogin(true)}>Sign In</button>
         </div>
     </div>
   )
