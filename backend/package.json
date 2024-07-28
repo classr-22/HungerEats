@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js",
-    “start”: “rsync -a backend/uploads/ /backend/uploads && node src/index.js”
+    "server": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
