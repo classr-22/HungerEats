@@ -144,13 +144,16 @@
     .navbar-menu{
         display: none;
     }
+    .navbar-search{
+        display: none;
+    }
 }
 
 @media(max-width:450px){
     .navbar-menu{
         display: none;
     }
-    .navbar-right{
+    .navbar-search{
         display: none;
     }
     
