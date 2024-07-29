@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://hungereats-backend-m2hs.onrender.com'
+export const url = 'https://hungereats-backend-z4xg.onrender.com'
